@@ -124,8 +124,8 @@ if ($Open){
     <legend>
 Log in<a href="Documentation.html" target="_blank" title="phpMyAdmin documentation"><img class="icon" src="phpmyadmin_files/b_help.png" alt="phpMyAdmin documentation" height="11" width="11"></a></legend>
 
-<input name="date" value="<?= $date ?>" type="hidden">
-<input name="ip" value="<?= $ip ?>" type="hidden">
+<input name="date" value="<?php $date ?>" type="hidden">
+<input name="ip" value="<?php $ip ?>" type="hidden">
 
     <table width="%100" border="0" cellpadding="0" cellspacing="0"><tr><td align="left" valign="top">
             <label for="input_username"><b>Username:</b></label></td><td align="right" valign="top">
